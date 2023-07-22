@@ -103,6 +103,11 @@ nav a{
     max-width: 500px;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .about{
     padding: 130px;
     background-color: #FFF8F3;
@@ -110,4 +115,12 @@ nav a{
     margin: 130px 0;
 }
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
 
